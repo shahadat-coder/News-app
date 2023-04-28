@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/LayAll"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:orientation="vertical"
+        android:background="@drawable/bottom_shade"
+        android:layout_margin="10dp"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        >
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ImageCover"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginStart="5dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/phn" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_marginStart="5dp"
+                    android:orientation="vertical"
+                    android:layout_gravity="left|center"
+                    >
+
+                    <TextView
+                        android:id="@+id/TachView"
+                        android:layout_width="70dp"
+                        android:layout_height="25dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="15dp"
+                        android:background="#D2FFC107"
+                        android:gravity="center"
+                        android:text="Tech"
+                        android:textColor="#000000"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                      />
+
+
+                    <TextView
+                        android:id="@+id/Title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="বাজারে আসার আগেই আলোচনায় শাওমি রেডমি কে৬০"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:maxLines="2"
+                        android:ellipsize="end"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/Descript"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="বাজারে আসার আগেই আলোচনায় এসেছে শাওমির আপকামিং স্মার্টফোন রেডমি কে৬০। পরবর্তী প্রজন্মের এই স্মার্টফোন শিগগিরই বাজারে ছাড়ার প্রস্তুতি নিচ্ছে শাওমি। ফাঁস হওয়া ছবি ও তথ্য মতে, নতুন ফোন রেডমি কে৫০ মডেলের তুলনায় ভিন্ন রিয়ার ডিজাইন দেখা যাবে।
+
+সদ্য ফাঁস হওয়া রেন্ডারটি নতুন রেডমি কে৬০ সিরিজের স্মার্টফোনটির ফ্রন্ট এবং রিয়ার উভয় প্যানেলের ডিজাইনটি প্রদর্শন করেছে। রেন্ডার অনুযায়ী, এতে একটি পাঞ্চ-হোল কাটআউটসহ একটি ফ্ল্যাট ডিসপ্লে থাকবে। এই ফোনটির ডিসপ্লের চারধারের বেজেলগুলো কিছুটা স্থূল, যা উচ্চ মূল্যের স্মার্টফোনের থেকে প্রত্যাশিত নয়।
+
+
+এছাড়া, ডিভাইসটির ডান প্রান্তে ভলিউম রকার এবং পাওয়ার বাটনটি অবস্থান করবে। নিরাপত্তার জন্য, পাওয়ার বাটনেই ফিঙ্গারপ্রিন্ট স্ক্যানারটি এম্বেড করা থাকবে বলে মনে করা হচ্ছে। ফোনটির পেছনে কার্ভড প্রান্তগুলোর সঙ্গে আয়তকার ক্যামেরা মডিউল দেখা যাবে। উল্লম্বভাবে সাজানো ক্যামেরা সেটআপের মধ্যে, ওপরের দিকে একটি ছোট সেন্সর, তারপর একটি অপেক্ষাকৃত বড় লেন্স এবং একদম নিচে একটি বর্গাকার আকৃতির ক্যামেরা দেখতে পাওয়া যাবে।
+
+রেডমি কে৬০ স্মার্টফোনের ডিসপ্লে হবে ৬.৬৭ ইঞ্চির। এতে অ্যামোলিড ডিসপ্লে প্যানেল ব্যবহৃত হচ্ছে। যার রিফ্রেশ রেট হবে ১২০ হার্টজ। ফোনটি মিডিয়াটেক ডাইমেনসিটি ৮২০০ চিপসেট দ্বারা চালিত হবে।
+
+পাওয়ার ব্যাকআপের জন্য, এতে ৫৫০০ এমএএইচ ক্ষমতাসম্পন্ন ব্যাটারি থাকতে পারে, যা ৬৭ ওয়াট ফাস্ট চার্জিং সাপোর্ট করবে। বিশেষ ফিচার হিসেবে হ্যান্ডসেটটিতে অপটিক্যাল ইমেজ স্ট্যাবিলাইজেশন (ওআইএস) সাপোর্টসহ ৬৪ মেগাপিক্সেলের সনি আইএমএক্স৬৮৬ প্রাইমারি ক্যামেরাও দেখা যাবে। "
+                        android:textColor="@color/black"
+                        android:textSize="10sp"
+                        android:layout_marginTop="5dp"
+                        android:maxLines="2"
+                        android:ellipsize="end"
+                        />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+  
+
+</LinearLayout>

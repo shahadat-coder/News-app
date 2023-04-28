@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <RelativeLayout
+        android:id="@+id/RealCover"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        >
+
+        <ImageView
+            android:id="@+id/ImageMb"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/phn" />
+
+<TextView
+    android:id="@+id/TvTitle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="ফাইভ জির যুগে পনেরো হাজারে কোন কোন ফাইভ জি ফোন পাবেন জানুন এই প্রতিবেদনে"
+    android:layout_alignParentBottom="true"
+    android:padding="10dp"
+    android:background="#AB000000"
+    android:textColor="#ffffff"
+    android:gravity="center"
+    />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/RealCover"
+        android:layout_alignParentBottom="true"
+        >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/TvDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="বর্তমানে উন্নত পরিসেবা পেতে ৫ জির দিকে ঝুঁকছে মানুষ। বেশি সুযোগ সুবিধা সমন্ন এই ডিভাইসগুলোর দাম যদিও ১০,০০০ এর মধ্যে রাখা সম্ভবপর হচ্ছে না কোম্পানিগুলোর দ্বারা। কিন্তু একটু বেশি খরচ করেই দ্রুত গতির ডেটা উপভোগ করতে পারবে এখন জনসাধারণ। জানুন বেশ কিছু ১৫,০০০ টাকার নিচে ৫জি কিছু ফোনের নাম।
+
+আইকিউওও জেড৬ লাইট ৫জি এটি এখন বাজারে পাওয়া অন্যতম সেরা ৫জি ফোন। এটিতে উন্নত মানের 'কোয়ালকম স্ন্যাপড্রাগন ৪ জেন ১' প্রসেসর ব্যবহার করা হয়েছে। যেটি আপনার ফোনকে কখনোই হ্যাং হতে দেবে না। এই ফোনে ১২০ হার্জ ডিসপ্লে আছে যা ১৫০০০ রেঞ্জের কোনো ফোন পাওয়া যায় না। এটির ডিসপ্লে ৬.৬৮ ইঞ্চি বড়ো। এটিতে ১৮ওয়াট এর ফাস্ট চার্জার আছে। এর ব্যাটারি ৫০০০ এমএএইচ কমতাসম্পন্ন। ফ্লিপকার্টে বর্তমানে এটি ১৩,৯৯০ টাকায় পাওয়া যাচ্ছে।
+
+স্যামসাঙ গ্যালাক্সি এম ১৩ ৫জি
+
+এটিও যথেষ্ট ভালো ৫ জি ফোন। যারা বড়ো ব্যাটারি ও বড়ো ডিসপ্লে চান তাদের জন্য এটি আদর্শ। এটির ব্যাটারি ৫০০০ এমএএইচ কমতাসম্পন্ন।এবং এতে ৬.৫ ইঞ্চি এলইডি স্ক্রিন আছে তা এইচ ডি রিসোলিউশনযুক্ত। এই ফোনটিতে 'মিডিয়াটেক ডাইমেনসিটি ৭০০' নাম একটি চিপ ভরা থাকে। যা ডিভাইসটির কার্যক্ষমতাকে আরও মসৃন করে। এটির চার্জার ১৫ ওয়াট সম্পন্ন। এর ক্যামেরাটিও বেশ ভালো। যা দিয়ে অনেক প্রাণবন্ত ছবি তোলা যায়। ফ্লিপকার্ট থেকে এই মোবাইলটি পাওয়া যাবে মাত্র ১৪,২৯৯ টাকা দামে।
+
+পোকো এম ৪ ৫জি
+
+এটি সবচেয়ে সস্তা ৫ জি ফোন। এটি ফোনের প্রাথমিক কাজগুলো খুব ভালো করে পালন করে। 'মিডিয়াটেক ডাইমেনসিটি ৭০০ ' নাম একটি চিপ ব্যবহার করা হয় এই যন্ত্রে যা এর কার্যক্ষমতাকে আরও বেশ কয়েকগুন বাড়িয়ে দেয়। এটির ব্যাটারি ৫০০০ এমএএইচ কমতাসম্পন্ন। এবং এটিতে ১৮ ওয়াট এর ফাস্ট চার্জার বিদ্যমান। টেক বিশেষজ্ঞদের দাবি এটি স্যামসাঙ ফোনের চেয়ে ভালো। এটিতে ৬.৫৮ ইঞ্চি ফুল এইচ ডি স্ক্রীন বর্তমান।"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:gravity="start"
+        />
+
+</LinearLayout>
+    </ScrollView>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/Microphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="15dp"
+        android:backgroundTint="#FF9800"
+        android:src="@drawable/mic"
+        android:foreground="?attr/selectableItemBackground"
+        >
+
+
+
+
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
